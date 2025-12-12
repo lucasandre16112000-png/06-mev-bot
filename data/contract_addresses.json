@@ -1,0 +1,12 @@
+{
+  "arbitrum_sepolia": {
+    "FlashLoanArbitrage": "0x0000000000000000000000000000000000000000",
+    "deployed": false,
+    "note": "Execute 'python deploy_contracts.py' para fazer deployment real"
+  },
+  "bsc_testnet": {
+    "FlashLoanArbitrage": "0x0000000000000000000000000000000000000000",
+    "deployed": false,
+    "note": "Execute 'python deploy_contracts.py' para fazer deployment real"
+  }
+}

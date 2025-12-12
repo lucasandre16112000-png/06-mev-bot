@@ -1,0 +1,18 @@
+{
+  "daily_stats": {
+    "date": "2025-11-24",
+    "gas_spent": 1.0,
+    "profit": 150.0,
+    "loss": 10.0,
+    "trades_executed": 2,
+    "trades_failed": 1,
+    "consecutive_failures": 1
+  },
+  "total_stats": {
+    "total_gas_spent": 6.0,
+    "total_profit": 900.0,
+    "total_loss": 60.0,
+    "total_trades": 18,
+    "start_time": 1764042462.20941
+  }
+}

@@ -1,0 +1,55 @@
+# ============================================================================
+# DEPENDÊNCIAS DO BOT MEV - VERSÃO REAL
+# ============================================================================
+
+# Core Web3
+web3==6.11.3
+eth-account==0.10.0
+eth-utils==2.3.1
+eth-abi==4.2.1
+
+# Solidity Compiler
+py-solc-x==2.0.2
+
+# HTTP Requests
+requests==2.31.0
+aiohttp==3.9.1
+
+# Logging
+loguru==0.7.2
+colorama==0.4.6
+
+# Data Science & Machine Learning
+numpy==1.24.3
+pandas==2.0.3
+scikit-learn==1.3.2
+
+# Advanced ML (opcional mas recomendado)
+xgboost==2.0.3
+
+# Deep Learning (opcional)
+torch==2.1.2
+torchvision==0.16.2
+
+# Utilities
+python-dotenv==1.0.0
+pyyaml==6.0.1
+jsonschema==4.20.0
+
+# Async
+asyncio==3.4.3
+
+# Database (para histórico)
+sqlalchemy==2.0.23
+
+# Monitoring
+prometheus-client==0.19.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+
+# Development
+black==23.12.1
+flake8==6.1.0
+mypy==1.7.1

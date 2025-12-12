@@ -1,0 +1,20 @@
+{
+  "base_sepolia": {
+    "address": "0x0D1674c88A59d35Be30eeE23163d6CeB07C6F778",
+    "tx_hash": "d656882de6705760f27a9629cb2a85499282c4b305e5fa9a35e1503e90d4d203",
+    "mode": "HYBRID: Aave + External DEX",
+    "success": true
+  },
+  "arbitrum_sepolia": {
+    "address": "0x0D1674c88A59d35Be30eeE23163d6CeB07C6F778",
+    "tx_hash": "febcaf4cb216265ac3f24e76ec08eb53fbe84916bec3c00a8c44265d2b67b183",
+    "mode": "HYBRID: Aave + External DEX",
+    "success": true
+  },
+  "sepolia": {
+    "address": "0x9dda101B8102dAc50359f0Ca2BEB5A25d66509d7",
+    "tx_hash": "8b8d8e52870a31a3059e1930260bf4465175c0aabe97669d01f57bf6f5989bb5",
+    "mode": "AAVE-ONLY: Flash Loan Only",
+    "success": true
+  }
+}

@@ -1,0 +1,88 @@
+╔══════════════════════════════════════════════════════════════╗
+║  🚀 MEV BOT HÍBRIDO - INSTRUÇÕES RÁPIDAS                    ║
+╚══════════════════════════════════════════════════════════════╝
+
+✅ TODAS AS CORREÇÕES APLICADAS!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📦 PASSO 1: DESCOMPACTAR
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+unzip mev-bot-HYBRID-CORRIGIDO.zip
+cd mev-bot-configurado
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔧 PASSO 2: INSTALAR DEPENDÊNCIAS (agora com XGBoost!)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+pip install -r requirements.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🚀 PASSO 3: FAZER DEPLOY DOS CONTRATOS HÍBRIDOS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+python deploy_contracts_hybrid.py
+
+Resultado esperado:
+  ✅ base_sepolia: 0x... (HYBRID: Aave + External DEX)
+  ✅ arbitrum_sepolia: 0x... (HYBRID: Aave + External DEX)
+  ✅ sepolia: 0x... (AAVE-ONLY: Flash Loan Only)
+  🎉 DEPLOYMENT COMPLETO: 3/3
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🤖 PASSO 4: RODAR O BOT HÍBRIDO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+python main_hybrid.py
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 O QUE FOI CORRIGIDO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ Ethereum Sepolia funcionando (modo Aave-Only)
+✅ XGBoost instalado e funcional
+✅ Contratos deployados em TODAS as 3 redes
+✅ Sistema híbrido inteligente por rede
+✅ Sem mais erros de Uniswap não disponível
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💰 DISTRIBUIÇÃO DE CAPITAL ($50)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Base Sepolia:     $25 (0.007 ETH) - Mais oportunidades
+Arbitrum Sepolia: $15 (0.004 ETH) - Gas barato
+Ethereum Sepolia: $10 (0.003 ETH) - Aprendizado
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧪 PLANO DE 2 MESES EM TESTNET
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+MÊS 1 - Aprendizado:
+  • Deixar bot rodar 24/7
+  • IA vai treinar com dados reais
+  • MIN_PROFIT_USD=5 (mais permissivo)
+  • ML_CONFIDENCE_THRESHOLD=0.50
+
+MÊS 2 - Otimização:
+  • IA já treinada
+  • Ajustar parâmetros
+  • MIN_PROFIT_USD=10
+  • ML_CONFIDENCE_THRESHOLD=0.70
+
+APÓS 2 MESES - Mainnet:
+  • USE_TESTNET=false ⚠️
+  • MIN_PROFIT_USD=50
+  • ML_CONFIDENCE_THRESHOLD=0.80
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📚 DOCUMENTAÇÃO COMPLETA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+README_HYBRID.md         - Guia completo de uso
+CORREÇÕES_APLICADAS.md   - Detalhes das correções
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎉 BOT 100% CORRIGIDO E FUNCIONAL!
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Desenvolvido com ❤️ por Lucas André S

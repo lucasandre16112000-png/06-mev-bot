@@ -1,0 +1,46 @@
+{
+  "real_features": [
+    "\u2705 Usa RealFlashLoanStrategy - estrat\u00e9gia real",
+    "\u2705 Usa AdvancedMLEngine - IA avan\u00e7ada",
+    "\u2705 Constr\u00f3i transa\u00e7\u00f5es reais",
+    "\u2705 Assina transa\u00e7\u00f5es com chave privada",
+    "\u2705 Contrato tem fun\u00e7\u00e3o executeArbitrage",
+    "\u2705 Usa Aave Flash Loan (protocolo real)",
+    "\u2705 Interface Aave Pool presente",
+    "\u2705 Interface Swap Router (Uniswap/PancakeSwap)",
+    "\u2705 Prote\u00e7\u00e3o contra reentrancy",
+    "\u2705 Controle de acesso (onlyOwner)"
+  ],
+  "fake_features": [
+    "\u26a0\ufe0f Cont\u00e9m c\u00f3digo de simula\u00e7\u00e3o",
+    "\u26a0\ufe0f Verifica modo DRY_RUN antes de executar"
+  ],
+  "suspicious_patterns": [
+    "\u26a0\ufe0f ./test_all.py: Lucro pode estar hardcoded",
+    "\u26a0\ufe0f ./deep_analysis.py: Lucro gerado aleatoriamente",
+    "\u26a0\ufe0f ./src/core/dex.py: Lucro pode estar hardcoded",
+    "\u26a0\ufe0f ./src/ai/ml_engine.py: Lucro pode estar hardcoded"
+  ],
+  "execution_modes": {
+    "dry_run": "PRESENTE - Modo simula\u00e7\u00e3o dispon\u00edvel",
+    "testnet": "PRESENTE - Pode rodar em testnet",
+    "mainnet": "PRESENTE - Pode rodar em mainnet"
+  },
+  "smart_contracts": {
+    "total": 6,
+    "files": [
+      "contracts/FlashLoanArbitrage.sol",
+      "contracts/FlashLoanArbitrageV2.sol",
+      "contracts/interfaces/IPool.sol",
+      "contracts/interfaces/IPoolAddressesProvider.sol",
+      "contracts/interfaces/IERC20.sol",
+      "contracts/interfaces/ISwapRouter.sol"
+    ]
+  },
+  "dependencies": [
+    "\u2705 web3.py - biblioteca oficial Ethereum",
+    "\u2705 eth-account - gerenciamento de contas",
+    "\u2705 scikit-learn - machine learning real",
+    "\u2705 XGBoost - IA avan\u00e7ada"
+  ]
+}
